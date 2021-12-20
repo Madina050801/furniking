@@ -57,7 +57,7 @@ Wrap.Select = styled.select`
   border-right: none;
   border-left: 2px solid rgba(227, 227, 227, 0.78);
   outline: none;
-  padding-left: 10px;
+  padding: 10px;
 
   font-style: normal;
   font-weight: normal;
@@ -72,6 +72,11 @@ Wrap.Button = styled.button`
   background: #7ac751;
   border-radius: 0px 7px 6px 0px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
 `;
 
 Wrap.IconContainer = styled.div`
